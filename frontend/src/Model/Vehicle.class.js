@@ -1,0 +1,22 @@
+
+
+export default class Vehicle {
+    constructor(name) {
+        this._name = name;
+        this._isParked = false;
+        this._parkingNumber = null;
+    }
+
+    get isParked() {
+        return this._isParked;
+    }
+    setParkingNumber(val) {
+        this._isParked = true;
+        this._parkingNumber = val;
+    }
+
+    resetParkingNumber() {
+        this._isParked = false;
+        this._parkingNumber = null;
+    }
+}
